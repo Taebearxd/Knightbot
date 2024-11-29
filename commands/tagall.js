@@ -30,7 +30,7 @@ async function tagAllCommand(sock, chatId, senderId) {
         let mentions = [];
 
         participants.forEach(participant => {
-            mentionText += `@${participant.id.split('@')[0]} `;
+            mentionText += `𑁍 @${participant.id.split('@')[0]} `;
             mentions.push(participant.id);
         });
 
